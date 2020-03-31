@@ -1,0 +1,12 @@
+root folder -> run : dotnet new sln
+subfolder -> run in each : dotnet new classlib
+testFolder -> run : dotnet new mstest
+root folder -> run, in order to link main folder each folder: dotnet sln add .\PaymentContext.Domain\PaymentContext.Domain.csproj
+root folder -> run restore
+root folder -> run build
+
+.Domain -> Rich Domain
+.Shared -> Handle in Multiple Domains
+
+------------
+add Entities  folder
